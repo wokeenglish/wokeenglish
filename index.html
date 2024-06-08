@@ -6,157 +6,276 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="/style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
 <script src="https://kit.fontawesome.com/1dcff9f583.js" crossorigin="anonymous"></script>
-<style>
-body, h1, h2, h3, h4, h5, h6  {
-  font-family: Comfortaa, sans-serif;
-}
-
-.w3-theme-purple {color:#fff !important; background-color:#210d41 !important}
-
-</style>
 </head>
 <body>
 
 <!-- Navbar (sit on top) -->
 <nav class="w3-top">
   <div class="w3-bar w3-wide w3-padding w3-card w3-lime">
-    <a href="#home" class="w3-bar-item w3-button"><b>WOKE</b> English</a>
+    <a href="#home" class="w3-bar-item w3-button w3-hover-pink"><b>WOKE</b> English</a>
     <!-- Float links to the right. Hide them on small screens -->
         <div class="w3-right">
-          <a href="https://wa.link/y0sfii" class="w3-bar-item w3-button w3-hide-small">Saiba Mais</a>
-          <a href="/nossos-cursos" class="w3-bar-item w3-button w3-hide-small">Nossos Cursos</a>
-          <a href="/fale-conosco" class="w3-bar-item w3-button w3-hide-small">Fale Conosco</a>
+          <a href="#boraaprender" class="w3-bar-item w3-button w3-hide-small w3-hover-pink">Bora aprender inglês!</a>
+          <a href="https://wa.link/y0sfii" class="w3-bar-item w3-button w3-hide-small w3-hover-pink">Saiba Mais</a>
           <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="NavFunction()">&#9776;</a>
         </div>
+        <!-- Navbar (for mobile) -->
+
         <div id="NavContent" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
-          <a href="https://wa.link/y0sfii" class="w3-bar-item w3-button">Saiba Mais</a>
-          <a href="/nossos-cursos" class="w3-bar-item w3-button">Nossos Cursos</a>
-          <a href="/fale-conosco" class="w3-bar-item w3-button">Fale Conosco</a>
+          <a href="#boraaprender" class="w3-bar-item w3-button w3-hover-pink">Bora aprender inglês!</a>
+          <a href="https://wa.link/y0sfii" class="w3-bar-item w3-button w3-hover-pink">Saiba Mais</a>
         </div>
   </div>
 </nav>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="/header-friends.jpg" alt="Grupo de amigos estudando" width="1500" height="800">
+<header class="w3-display-container w3-content w3-wide" style="max-width:1700px;" id="home">
+  <img class="w3-image" src="/header-friends.jpg" alt="Grupo de amigos estudando" width="1700" height="800">
   <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>WOKE</b></span> <span class="w3-hide-small w3-text-light-grey">English</span></h1>
+    <h1 class="w3-xxxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>WOKE</b></span> <span class="w3-hide-small w3-text-light-grey">English</span></h1>
   </div>
 </header>
 
 <!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
+<div class="w3-content w3-padding w3-margin-left w3-margin-right" style="max-width:1464px">
 
-  <!-- About the course -->
-  <div class="w3-row">
+<!-- Intro -->
+
+  <div class="w3-row w3-margin">
+    <!-- Letter -->
     <div class="w3-container w3-half ">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </div>
+      <p>Hi there!</p>
+      <p>Sabemos que para muitas pessoas, aprender inglês é um grande desafio. Talvez você já tenha experimentado vários cursos e professores, e ainda esteja procurando <strong>um método que funcione para você</strong>. Ou talvez o começo pareça tão intimidante que tomar o primeiro passo se tornou difícil, ou confuso.</p>
+      <p>Nosso objetivo é tornar o aprendizado da língua inglesa simples e prazeroso para todos. Nossas aulas se adaptam às suas necessidades e objetivos, e são preparadas com carinho para garantir o seu progresso. Focamos em <strong>conversação desde o início</strong>, de forma tranquila e intuitiva. Sem stress, no seu ritmo, sempre progredindo.</p>
+      <p>A WOKE acredita que <strong>todos podem aprender inglês</strong>. Nunca é tarde para aprender uma língua! Nós acreditamos em você, e vamos te ajudar a acreditar em si mesmo.</p>      
+      <p>Let’s go!<br>  
+      Alice & Nat</p>  
+    </div>
+  
+    <!-- Step it works-->
     <div class="w3-container w3-half w3-pink w3-card">
       <h2>Como funciona?</h2>
       <ol>
-        <li>Você escolhe qual o melhor pacote para você, de acordo com seus objetivos.</li>
-        <li>Assim que você realiza o pagamento, já te enviamos o contrato com tudo detalhadinho.</li>
-        <li>Você vai receber instruções para agendar e se preparar para suas aulas - não se preocupe, cuidamos de tudo!</li>
-        <li>Quando sua primeira aula estiver agendada, você vai receber o link para acessar o Google Meet. Você pode participar da aula no seu computador, smartphone, ou tablet em qualquer lugar que conte com uma boa conexão.</li>
-        <li>Após cada aula, te enviamos material extra para praticar o que aprendeu. Aqui é você quem decide o seu rítimo. 😎</li>
-        <li>Se você tiver dúvidas, é só chegar no nosso plantão de dúvidas e te ajudamos a resolver.</li>
-        <li>Pronto! Agora é só agendar a próxima aula, e seguir sua jornada rumo a fluência!</li>
-      </ol>      
-      </div>
+      <li>Escolha o pacote que se encaixa na sua rotina.</li>
+      <li>Assine o contrato que vamos te enviar.</li>
+      <li>Você vai receber instruções para agendar e se preparar para suas aulas - não se preocupe, cuidamos de tudo!</li>
+      <li>Acesse sua primeira aula pelo Google Meet. Você pode participar da aula no seu computador, smartphone, ou tablet em qualquer lugar que conte com uma boa conexão. 😎</li>
+      <li>Após cada aula, te enviamos material extra para praticar o que aprendeu.</li>
+      <li>Se você tiver dúvidas, é só chegar no nosso plantão de dúvidas e te ajudamos a resolver.</li>
+      <li>Pronto! Agora é só agendar a próxima aula, e seguir sua jornada rumo à fluência! 🧗</li>
+      </ol>
+    </div>
   </div>
 
-  <!-- Testimonials -->
-    <div class="w3-container">
-      <h2>Nossos Alunos</h2>
-      <div class="w3-row-padding">
+  <!-- Choose your pack -->
+    <div id="boraaprender" class="w3-container w3-amber w3-card w3-margin">
+      <h2>Preparado para aprender inglês?</h2>
+      <p>É só escolher qual o melhor plano para você e começar a estudar com professores experientes usando métodos claros e intuitivos que vão te ajudar a conversar em inglês com mais facilidade do que você jamais sonhou! Com a WOKE, você tem:</p>
+      <ul style="list-style-type:none;">
+        <li>🤓 Aulas individuais, dinâmicas, focadas só no seu progresso</li>
+        <li>🗣️ Conversação em todos os níveis</li>
+        <li>🧑‍🏫 Professores experientes e empáticos</li> 
+        <li>📚 Material sob medida já incluso em todos os planos</li>
+        <li>👏 Apoio pedagógico e plantão de dúvidas</li>
+        <li>💻 Tudo 100% digital - só precisa ter um computador ou smartphone, e você está pronto!</li>
+        <li>📆 Flexibilidade de horário - agende suas aulas conforme sua disponibilidade!</li>
+      </ul>
+      <div class="w3-center"><a href="#planos" class="w3-button w3-theme-purple w3-ripple w3-round-large w3-hover-pink w3-margin">Escolha seu plano!</a></div>
+    </div> 
+
+
+  <!-- Pricing -->
+    <div class="w3-container w3-margin">
+<h2 id="planos" class="w3-center">Quanto custa?</h2>
+<p>A WOKE oferece 3 tamanhos de pacote de aulas, para você decidir qual se encaixa melhor nas suas necessidades. Cada pacote contém uma quantidade específica de aulas de 50 minutos que você pode agendar durante toda a validade do plano de acordo com a disponibilidade de horário.</p>
+<p>Ou seja, se você contratar 20 aulas, você pode agendar uma por semana, ou duas, ou três. Pode até mesmo agendar todas as 20 para a primeira semana (😱) se houver tempo suficiente! Precisando se preparar para uma viagem de última hora? A gente te ajuda! Só não se esqueça: todas as aulas precisam ser concluídas na vigência do plano. </p>
+
+<!-- Table  for medium & large screens-->
+<div align="center">
+<table style="width:70%" class="w3-table w3-bordered w3-centered w3-border w3-margin w3-card-4 w3-hide-small">
+<thead class="w3-light-blue">
+  <tr>
+    <th>WOKE mini</th>
+    <th>WOKE semestral</th>
+    <th>WOKE anual</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>10 aulas</td>
+    <td>20 aulas</td>
+    <td>40 aulas</td>
+  </tr>
+  <tr>
+    <td>90 dias para fazer suas aulas</td>
+    <td>180 dias para fazer suas aulas</td>
+    <td>360 dias para fazer suas aulas</td>
+  </tr>
+  <tr>
+    <td>R$ 400 por mês*</td>
+    <td>R$ 379 por mês*</td>
+    <td>R$ 365 por mês*</td>
+  </tr>
+  <tr>
+    <td>50 minutos por aula</td>
+    <td>50 minutos por aula</td>
+    <td>50 minutos por aula</td>
+  </tr>
+    <tr>
+    <td><a class="w3-pale-red" href="https://mpago.li/1gfTn6u">Quero esse!</a></td>
+    <td><a class="w3-pale-red" href="https://mpago.li/23DbD9h">Quero esse!</a></td>
+    <td><a class="w3-pale-red" href="https://mpago.li/2e3LFpB">Quero esse!</a></td>
+  </tr>
+  <tr>
+    <td class="w3-light-gray" colspan="3">* Ao selecionar o pacote, você verá opções de parcelamento. Quer pagar tudo de uma vez e ganhar <strong>desconto</strong>? <a href="wa.link/h4te0y">Converse com a gente</a>!</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<!-- Table for small screens -->
+<div align="center">
+<table style="width:100%" class="w3-table w3-bordered w3-centered w3-border w3-card-4 w3-hide-medium w3-hide-large">
+  <tr>
+    <th class="w3-light-blue">WOKE mini</th>
+  </tr>
+  <tr>
+    <td>10 aulas</td>
+  </tr>
+  <tr>
+    <td>90 dias para fazer suas aulas</td>
+  </tr>
+  <tr>
+    <td>R$ 400 por mês*</td>
+  </tr>
+  <tr>
+    <td>50 minutos por aula</td>
+  </tr>
+  <tr>
+  <td><a class="w3-pale-red" href="https://mpago.li/1gfTn6u">Quero esse!</a></td>
+  </tr>
+  <tr>
+    <th class="w3-light-blue">WOKE semestral</th>
+  </tr>
+  <tr>
+    <td>20 aulas</td>
+  </tr>
+  <tr>
+    <td>180 dias para fazer suas aulas</td>
+  </tr>
+  <tr>
+    <td>R$ 379 por mês*</td>
+  </tr>
+  <tr>
+    <td>50 minutos por aula</td>
+  </tr>
+  <tr>
+  <td><a class="w3-pale-red" href="https://mpago.li/23DbD9h">Quero esse!</a></td>
+  </tr>
+  <tr>
+    <th class="w3-light-blue">WOKE anual</th>
+  </tr>
+  <tr>
+    <td>40 aulas</td>
+  </tr>
+  <tr>
+    <td>360 dias para fazer suas aulas</td>
+  </tr>
+  <tr>
+    <td>R$ 365 por mês*</td>
+  </tr>
+  <tr>
+    <td>50 minutos por aula</td>
+  </tr>
+  <tr>
+  <td><a class="w3-pale-red" href="https://mpago.li/2e3LFpB">Quero esse!</a></td>
+  </tr>
+  <tr>
+<td class="w3-light-gray">* Ao selecionar o pacote, você verá opções de parcelamento. Quer pagar tudo de uma vez e ganhar <strong>desconto</strong>? <a href="wa.link/h4te0y">Conversa com a gente</a>!</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+
+<p class="w3-margin-top">PS: O material já está incluso em todos os planos - <strong>sem custos escondidos!</strong><p>
+    </div> 
+
+  <!-- FAQ -->
+        <div class="w3-container">
+	
+      <h2 class="w3-center">Perguntas Frequentes</h2>  
+	  
+      <div class="w3-card w3-padding collapsible w3-left-align w3-light-gray w3-hover-light-gray w3-hover-text-pink w3-ripple">Já estudei inglês antes, mas quero melhorar. A WOKE testa meu nível?</div>
+      <div class="content"><p>Sim. Se você já estudou inglês antes, ou aprendeu um pouco por imersão, e gostaria de se aprofundar, vamos primeiro avaliar o seu nível atual, e então preparar suas aulas levando em consideração o seu conhecimento prévio.</p></div>
+	  
+      <div class="w3-card w3-padding collapsible w3-left-align w3-margin-top w3-light-gray w3-hover-light-gray w3-hover-text-purple w3-ripple">Tem como aprender conversação mesmo como iniciante?</div>
+      <div class="content"><p>Com certeza! Tudo o que você aprende em qualquer idioma pode e deve ser praticado na forma de conversação, mesmo no nível mais básico. É claro que a sua conversação não vai ser completamente fluida e independente logo na primeira aula, mas a WOKE vai te ajudar a desenvolver habilidades e confiança para se comunicar desde o primeiro momento.</p></div>
       
-        <div class="w3-col l2 m4 w3-margin-bottom">
-          <img src="/john.jpg" alt="John" style="width:100%">
-          <h3>John Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-        
-        <div class="w3-col l2 m4 w3-margin-bottom">
-          <img src="/jane.jpg" alt="Jane" style="width:100%">
-          <h3>Jane Doe</h3>
-          <p class="w3-opacity">Architect</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-        
-        <div class="w3-col l2 m4 w3-margin-bottom">
-          <img src="/mike.jpg" alt="Mike" style="width:100%">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Architect</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-        
-        <div class="w3-col l2 m4 w3-margin-bottom w3-hide-small">
-          <img src="/dan.jpg" alt="Dan" style="width:100%">
-          <h3>Dan Star</h3>
-          <p class="w3-opacity">Architect</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-        
-        <div class="w3-col l2 m4 w3-margin-bottom w3-hide-small">
-          <img src="/john.jpg" alt="John" style="width:100%">
-          <h3>John Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-        
-        <div class="w3-col l2 m4 w3-margin-bottom w3-hide-small">
-          <img src="/jane.jpg" alt="Jane" style="width:100%">
-          <h3>Jane Doe</h3>
-          <p class="w3-opacity">Architect</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-        
-     </div> 
-   </div>
-    
-  <!-- Call to action -->
-    <div class="w3-container w3-amber w3-card">
-        <h2>Nossos Alunos</h2>
-        <p>COME STUDY WITH US BITCHES</p>
+	  <div class="w3-card w3-padding collapsible w3-left-align w3-margin-top w3-light-gray w3-hover-light-gray w3-hover-text-blue w3-ripple">Na verdade, já sei muito inglês. Posso praticar só conversação?</div>
+      <div class="content"><p>Yup, for sure! Se você já tem o conhecimento gramatical e vocabular da língua e o seu objetivo agora é só adquirir desenvoltura na fala, conte com a gente! Prepararemos aulas focadas 100% em conversação.</p></div>
+      
+	  <div class="w3-card w3-padding collapsible w3-left-align w3-margin-top w3-light-gray w3-hover-light-gray w3-hover-text-cyan w3-ripple">Vou aprender gramática na WOKE?</div>
+      <div class="content"><p>Imagine que você quer preparar um bolo. Primeiro, você vai precisar separar todos os ingredientes. Você vai precisar de um ambiente propício (incluindo um forno) e tempo suficiente para tudo ficar pronto. E, é claro, você vai precisar das instruções explicando como preparar o bolo.</p>
+      <p>A gramática é justamente esse manual de instruções de como um idioma funciona. Para aprender uma língua, você vai precisar dos ingredientes (vocabulário, áudios, recursos), do ambiente propício, tempo, e de explicações que te mostrem como por tudo isso junto. Na WOKE, ensinamos gramática de forma sempre contextualizada, explicando como tudo funciona e se encaixa na conversação.</p></div>
+      
+	  <div class="w3-card w3-padding collapsible w3-left-align w3-margin-top w3-light-gray w3-hover-light-gray w3-hover-text-green w3-ripple">Quanto tempo demora para aprender inglês com a WOKE?</div>
+      <div class="content"><p>A maior parte dos alunos consegue concluir o curso entre 2 e 3 anos. É importante lembrar que cada pessoa é diferente, e que na WOKE é você quem determina o ritmo. Algumas pessoas vão preferir um curso mais lento e tranquilo, enquanto para outras, é GO GO GO. A sua disponibilidade também influencia a duração dos seus estudos: quanto mais regularmente você agendar suas aulas, mais fácil é determinar o seu progresso.</p></div>
+      
+	  <div class="w3-card w3-padding collapsible w3-left-align w3-margin-top w3-light-gray w3-hover-light-gray w3-hover-text-amber w3-ripple">Quero praticar bastante. A WOKE me manda material extra?</div>
+      <div class="content"><p>Sim. Ao final de cada aula, você vai receber recomendações de material de estudos para praticar e se aprofundar. Estes materiais são opcionais - entendemos que nem todo mundo tem tempo para fazer um monte de homework! Mas eles estão sempre disponíveis para você.</p></div>
+      
+	  <div class="w3-card w3-padding collapsible w3-left-align w3-margin-top w3-light-gray w3-hover-light-gray w3-hover-text-orange w3-ripple">A WOKE fornece certificado de conclusão de curso?</div>
+      <div class="content"><p>Sim. Você recebe um certificado ao final de cada nível concluído.</p></div>
+      
+	  <div class="w3-card w3-padding coquanllapsible w3-left-align w3-margin-top w3-light-gray w3-hover-light-gray w3-hover-text-deep-orange w3-ripple">Preciso me preparar para um exame de proficiência (TOEFL, IELTS, Cambridge, etc). Vocês me ajudam?</div>
+      <div class="content"><p>Claro! Preparamos todas as nossas aulas para o que você precisa. Isso inclui preparatórios. Entre em contato para mais informações!</p></div>
+      
+	  <div class="w3-card w3-padding collapsible w3-left-align w3-margin-top w3-light-gray w3-hover-light-gray w3-hover-text-brown w3-ripple">Preciso melhorar meu inglês com urgência. O que podemos fazer?</div>
+      <div class="content"><p>Quando você adquire um pacote de aulas, você tem total liberdade para agendar suas aulas o mais rápido possível. Você pode, por exemplo, contratar 20 aulas, e fazer 4 aulas por dia durante 5 dias, em ritmo super intensivo (ufa!). Se você tem um pouco mais de tempo, você pode fazer uma aula por dia e concluir o pacote em menos de um mês.</p>
+      <p>Isso pode ser muito útil se você tem uma viagem agendada ou precisa realizar um exame e tem pouco tempo para se preparar. Porém, é importante lembrar que no aprendizado de idiomas, constância é essencial,  e quanto mais aulas você faz num curto intervalo de tempo, menos tempo você tem para praticar e se preparar entre cada aula. Se você fizer muitas aulas na mesma semana, é possível que você se canse e tenha dificuldades para absorver novos conteúdos.</p>
+      <p>Também precisamos levar em consideração a agenda dos professores, que podem não ter horários suficientes para assumir tantas aulas ao mesmo tempo. Se você tem necessidade de agendar aulas com urgência, por favor <strong><a href="wa.link/kgjcxi">entre em contato conosco o mais rápido possível</a></strong>.</p>
+      <p>É sempre mais seguro criar uma rotina de estudos sustentável que não pese no seu dia a dia. Só você vai poder dizer com certeza qual a melhor rotina para você. Não importa qual o seu ritmo, a WOKE está aqui para te ajudar! 💜</p></div>
+
+ </div>
+
+  <!-- Still has questions? -->
+    <div class="w3-container w3-light-blue w3-card w3-margin">
+      <h2>Ainda tem dúvidas?</h2>
+      <p><a href="https://wa.link/y0sfii">Mande um oi pra gente no WhatsApp</a> que vamos adorar conversar com você e responder suas perguntas. Queremos te ajudar a descobrir se a WOKE é a escola certa para você. Trabalhamos com empatia e transparência, e estamos aqui para facilitar o seu aprendizado.</p>
+      <p>Resolveu todas as dúvidas?</p>
+      <div class="w3-center"><a href="#planos" class="w3-button w3-theme-purple w3-ripple w3-round-large w3-hover-pink w3-margin">Escolha seu plano!</a></div>
     </div> 
 
   <!-- About us -->
-    <div class="w3-row-padding w3-center">
-        <div class="w3-col w3-half w3-margin-top">
-          <img class="w3-circle" src="/alice.png" alt="Alice" style="width:50%">
-          <h3>Alice Fagiolo</h3>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <div class="w3-row-padding w3-margin">
+    <h2 class="w3-center">Quem Somos</h2>
+        <div class="w3-col w3-half w3-margin-top w3-padding">
+          <h3 class="w3-center">Alice Fagiolo</h3>
+          <p>Iniciando sua carreira acadêmica com um diploma em Direito, Alice Fagiolo logo descobriu sua paixão pela língua inglesa. Isso a levou a buscar uma pós-graduação em Língua, Tradução e Literatura Inglesa, além de um curso de Proofreading and Editing na renomada College of Media and Publishing no Reino Unido. Com uma experiência impressionante de 19 anos ensinando inglês, Alice continuou a aprimorar suas habilidades linguísticas através de cursos adicionais na Inglaterra. Essa jornada culminou na co-fundação da WOKE English, um reflexo de sua dedicação e amor pela educação em inglês.</p>
         </div>
-        <div class="w3-col w3-half w3-margin-top">
-          <img class="w3-circle" src="/nat.png" alt="Nat" style="width:50%">
-          <h3>Natalia Gruber</h3>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <div class="w3-col w3-half w3-margin-top w3-padding">
+          <h3 class="w3-center">Natalia Gruber</h3>
+          <p>Natalia Gruber tem mais de 10 anos de experiência ensinando inglês para pessoas de todas as idades. Ela começou sua carreira em Ouro Preto-MG, enquanto cursava Letras pela Universidade Federal de Ouro Preto. Para ela, ensinar é a realização de um sonho e também um propósito de vida: quando o conhecimento é compartilhado, todos crescemos juntos. Sua experiência tanto em grandes escolas quanto diretamente com alunos particulares mostraram o caminho para uma nova forma de ensinar em inglês, mais simples, transparente, e personalizada, e na co-fundação da WOKE English.</p>
         </div>
     </div>
 
 <!-- End page content -->
-
 </div>
 
 <!-- Footer -->
-<footer class="w3-row w3-theme-purple w3-padding-16">
-    <div class="w3-container w3-third"></div>
-    <div class="w3-container w3-third">
+<footer class="w3-row w3-theme-purple w3-padding-large">
       <h5>Converse com a gente!</h5>
         <ul class="w3-ul">
           <li><i class="fa-regular fa-envelope"></i>  hello@wokeenglish.com</li>
           <li><i class="fa-brands fa-whatsapp"></i>  (16) 99760 9170</li>
-          <li><i class="fa-brands fa-instagram"></i>  wokeenglish</li>
+          <li><i class="fa-brands fa-instagram"></i>  @wokeenglish</li>
         </ul>    
-        </div>
-    <div class="w3-container w3-third"></div>
-
 </footer>
 
+<!-- Collapse Navbar on small screens -->
 <script>
 function NavFunction() {
   var x = document.getElementById("NavContent");
@@ -165,6 +284,24 @@ function NavFunction() {
   } else { 
     x.className = x.className.replace(" w3-show", "");
   }
+}
+</script>
+
+<!-- Collapse FAQ answers -->
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
 }
 </script>
 
