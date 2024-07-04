@@ -42,21 +42,6 @@
 <!-- Page content -->
 <div class="w3-content w3-padding w3-margin-left w3-margin-right" style="max-width:1464px">
 
-<!-- Intro -->
-
-  <div class="w3-row w3-margin">
-    <!-- Letter -->
-    <div class="w3-container">
-      <p>Hi there!</p>
-      <p>Sabemos que para muitas pessoas, aprender inglês é um grande desafio. Talvez você já tenha experimentado vários cursos e professores, e ainda esteja procurando <strong>um método que funcione para você</strong>. Ou talvez o começo pareça tão intimidante que tomar o primeiro passo se tornou difícil, ou confuso.</p>
-      <p>Nosso objetivo é tornar o aprendizado da língua inglesa simples e prazeroso para todos. Nossas aulas se adaptam às suas necessidades e objetivos, e são preparadas com carinho para garantir o seu progresso. Focamos em <strong>conversação desde o início</strong>, de forma tranquila e intuitiva. Sem stress, no seu ritmo, sempre progredindo.</p>
-      <p>A WOKE acredita que <strong>todos podem aprender inglês</strong>. Nunca é tarde para aprender uma língua! Nós acreditamos em você, e vamos te ajudar a acreditar em si mesmo.</p>      
-      <p>Let’s go!<br>  
-      Alice & Nat</p>  
-    </div>
-  
-
-
 
   <!-- Pricing -->
     <div class="w3-container w3-margin">
@@ -95,9 +80,9 @@
     <td>50 minutos por aula</td>
   </tr>
     <tr>
-    <td><a class="w3-yellow" href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c938084907d9dd901907ebf5d1b00a4">Quero esse!</a></td>
-    <td><a class="w3-yellow" href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c938084907d9dd901907ec0fa3400a5">Quero esse!</a></td>
-    <td><a class="w3-yellow" href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c938084907d9e0601907ec2899300a0">Quero esse!</a></td>
+    <td>Uma aula por semana</td>
+    <td>Uma aula por semana</td>
+    <td>Uma aula por semana</td>
   </tr>
   <tr>
     <td class="w3-light-gray" colspan="3">Quer pagar tudo de uma vez e ganhar <strong>desconto</strong>? <a href="wa.link/h4te0y">Converse com a gente</a>!</td>
@@ -125,7 +110,7 @@
     <td>50 minutos por aula</td>
   </tr>
   <tr>
-  <td><a class="w3-yellow" href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c938084907d9dd901907ebf5d1b00a4">Quero esse!</a></td>
+    <td>Uma aula por semana</td>
   </tr>
   <tr>
     <th class="w3-light-blue">WOKE semestral</th>
@@ -143,7 +128,7 @@
     <td>50 minutos por aula</td>
   </tr>
   <tr>
-  <td><a class="w3-yellow" href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c938084907d9dd901907ec0fa3400a5">Quero esse!</a></td>
+    <td>Uma aula por semana</td>
   </tr>
   <tr>
     <th class="w3-light-blue">WOKE anual</th>
@@ -161,7 +146,7 @@
     <td>50 minutos por aula</td>
   </tr>
   <tr>
-  <td><a class="w3-yellow" href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c938084907d9e0601907ec2899300a0">Quero esse!</a></td>
+    <td>Uma aula por semana</td>
   </tr>
   <tr>
 <td class="w3-light-gray">Quer pagar tudo de uma vez e ganhar <strong>desconto</strong>? <a href="wa.link/h4te0y">Conversa com a gente</a>!</td>
@@ -173,6 +158,40 @@
 
 <p class="w3-margin-top">PS: O material já está incluso em todos os planos - <strong>sem custos escondidos!</strong><p>
     </div> 
+</div>
+
+  <!-- Registration -->
+
+<div class="w3-container">
+
+<div class="w3-bar">
+    <button class="w3-bar-item w3-button w3-round-large w3-margin tablink w3-pink" onclick="openPlan(event,'WOKEmini')">WOKE mini</button>
+    <button class="w3-bar-item w3-button w3-round-large w3-margin tablink" onclick="openPlan(event,'WOKEsemestral')">WOKE semestral</button>
+    <button class="w3-bar-item w3-button w3-round-large w3-margin tablink" onclick="openPlan(event,'WOKEanual')">WOKE anual</button>
+    <button class="w3-bar-item w3-button w3-round-large w3-margin tablink" onclick="openPlan(event,'Custom')">Plano Personalisado</button>
+  </div>
+  
+  <div id="WOKEmini" class="w3-container plan">
+    <iframe class="airtable-embed" src="https://airtable.com/embed/appWamtKkqfyIgv8Y/pagIoKBzhhi0tjUXZ/form" frameborder="0" onmousewheel="" width="100%" height="1650" style="background: transparent; border: 0px solid #ccc;"></iframe>
+          <div class="w3-center"><a href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c938084907d9dd901907ebf5d1b00a4" class="w3-button w3-ripple w3-block w3-round-large w3-light-blue w3-hover-theme-purple w3-margin">Finalizar sua assinatura WOKE mini no Mercado Pago!</a></div>
+  </div>
+
+  <div id="WOKEsemestral" class="w3-container plan" style="display:none">
+    <iframe class="airtable-embed" src="https://airtable.com/embed/appWamtKkqfyIgv8Y/pagIoKBzhhi0tjUXZ/form" frameborder="0" onmousewheel="" width="100%" height="1650" style="background: transparent; border: 0px solid #ccc;"></iframe>
+          <div class="w3-center"><a href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c938084907d9dd901907ec0fa3400a5" class="w3-button w3-ripple w3-block w3-round-large w3-light-blue w3-hover-theme-purple w3-margin">Finalizar sua assinatura WOKE semestral no Mercado Pago!</a></div>
+  </div>
+
+  <div id="WOKEanual" class="w3-container plan" style="display:none">
+    <iframe class="airtable-embed" src="https://airtable.com/embed/appWamtKkqfyIgv8Y/pagIoKBzhhi0tjUXZ/form" frameborder="0" onmousewheel="" width="100%" height="1650" style="background: transparent; border: 0px solid #ccc;"></iframe>
+          <div class="w3-center"><a href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c938084907d9e0601907ec2899300a0" class="w3-button w3-ripple w3-block w3-round-large w3-light-blue w3-hover-theme-purple w3-margin">Finalizar sua assinatura WOKE anual no Mercado Pago!</a></div>
+  </div>
+
+<div id="Custom" class="w3-container plan" style="display:none">
+    <h2>Entre em contato!</h2>
+    <p>Se nenhum dos nossos planos se encaixa nos seus objetivos, <a href="https://wa.link/y0sfii">mande uma mensagem pra gente</a> e vamos bolar um plano especial pensado nas suas necessidades.</p>
+  </div>
+
+</div>
 
 
 <!-- End page content -->
@@ -199,6 +218,25 @@ function NavFunction() {
   }
 }
 </script>
+
+<!-- Tabulate registration forms -->
+
+<script>
+function openPlan(evt, planName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("plan");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-pink", "");
+  }
+  document.getElementById(planName).style.display = "block";
+  evt.currentTarget.className += " w3-pink";
+}
+</script>
+
 
 </body>
 </html>
